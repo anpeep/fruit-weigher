@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Entries</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mona:wght@400;700&display=swap');
+        body {
+            font-family: 'Mona', serif;
+            background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        ul, a {
+            margin: 20px;
+        }
+        a {
+            color: #FFDC80;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FCAF45;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>My Entries</h2>
+        <ul>
+            {% for entry in user_entries %}
+                <li>{{ entry.product.name }} - {{ entry.weight }} kg on {{ entry.timestamp }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'accounts:user_dashboard' %}">Back to Dashboard</a>
+    </div>
+</body>
+</html>

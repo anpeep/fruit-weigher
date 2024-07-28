@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login/Signup</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mona:wght@400;700&display=swap');
+        body {
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Mona', serif;
+            background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            color: white;
+        }
+        .container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .login-container, .signup-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label, input, button {
+            margin: 10px 0;
+            color: black;
+        }
+        input, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+        }
+        button {
+            background-color: #FFDC80;
+            color: black;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FCAF45;
+        }
+        .error {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .success {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        p {
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container login-container">
+        <h2>Login</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            {{ login_form.username.label }}: {{ login_form.username }}<br>
+            {{ login_form.password.label }}: {{ login_form.password }}<br>
+            <button type="submit" name="login">Login</button>
+        </form>
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    {% if "login" in message.tags %}
+                        <li class="error">{{ message }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+
+    <div class="container signup-container">
+        <h2>Signup</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            {{ signup_form.username.label }}: {{ signup_form.username }}<br>
+            {{ signup_form.password1.label }}: {{ signup_form.password1 }}<br>
+            {{ signup_form.password2.label }}: {{ signup_form.password2 }}<br>
+            <p>Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, and one number.</p>
+            <button type="submit" name="signup">Signup</button>
+        </form>
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    {% if "signup" in message.tags %}
+                        <li class="{{ message.tags }}">{{ message }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

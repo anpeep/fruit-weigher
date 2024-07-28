@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Weight</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mona:wght@400;700&display=swap');
+        body {
+            font-family: 'Mona', serif;
+            background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        form, p, a {
+            margin: 20px;
+        }
+        input, select, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 16px;
+            color: black;
+        }
+        button {
+            background-color: #FFDC80;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FCAF45;
+        }
+        a {
+            color: #FFDC80;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FCAF45;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Add Weight</h2>
+        <form method="post" action="">
+            {% csrf_token %}
+            <p>
+                <label for="product">Product:</label>
+                <select name="product" required>
+                    {% for product in products %}
+                        <option value="{{ product.id }}">{{ product.name }}</option>
+                    {% endfor %}
+                </select>
+            </p>
+            <p>
+                <label for="weight"
