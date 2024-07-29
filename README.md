@@ -10,9 +10,7 @@ This project allows users to sign up, log in, and add weights to fruits declared
 
 Make sure you have the following installed:
 
-- **Python**
 - **Pip**
-- **Django**
 
 ### Clone the Repository
 
@@ -21,18 +19,26 @@ Clone this repository to your local machine:
 git clone https://github.com/anpeep/fruit-weigher.git
 cd fruit-weigher/src
 ```
-## Set Up the Environment
+## Install Python (on Linux)
+Install the necessary Python packages:
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10 python3.10-venv python3.10-dev
+```
+## Set Up the Environment (on Linux/Mac)
 
 Create a Virtual Environment (recommended)
 Create a virtual environment to isolate your project dependencies:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python3.10 -m venv myenv
+source myenv/bin/activate
 ```
-## Install Requirements
+## Install Django (on Linux)
 Install the necessary Python packages:
 ```bash
-pip install -r requirements.txt
+pip install Django==5.0.7
+pip install django-allauth
 ```
 ## Database Migrations
 
