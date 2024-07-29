@@ -5,15 +5,7 @@ from django.contrib.auth.decorators import login_required
 from .models import Product, ProductEntry
 from .forms import ProductForm, ProductEntryForm
 
-@login_required
-def product_list_view(request):
-    queryset = Product.objects.all()
-    return render(request, "product/product_list.html", {"object_list": queryset})
 
-@login_required
-def product_detail_view(request, id):
-    obj = get_object_or_404(Product, id=id)
-    return render(request, "product/product_detail.html", {"object": obj})
 
 @login_required
 def product_create_view(request):
