@@ -62,19 +62,19 @@ python manage.py runserver
 ```
 Open your browser and go to http://127.0.0.1:8000 to view the application.
 
-## User Guide
+# User Guide
 
-### Sign Up and Log In
-#### Sign Up
+## Sign Up and Log In
+### Sign Up
 
 - **Navigate to the sign-up page.**
 - **Provide a username, password (must be at least 8 characters long, include uppercase, lowercase, and digits), and complete the registration.**
-#### Log In
+### Log In
 
 - **Navigate to the login page.**
 - **Enter your username and password to access the user dashboard.**
 
-### User Dashboard
+## User Dashboard
 Once logged in, you can:
 
 - **Add Weight: Select a fruit from the list declared by the admin and enter the weight.**
