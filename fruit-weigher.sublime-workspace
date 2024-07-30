@@ -1,0 +1,741 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"my_form"
+			],
+			[
+				"P",
+				"Product"
+			],
+			[
+				"Pr",
+				"Product"
+			],
+			[
+				"pr",
+				"product_detail_view"
+			],
+			[
+				"Pro",
+				"ProductForm"
+			],
+			[
+				"d",
+				"def\tFunction"
+			],
+			[
+				"re",
+				"render"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/fruitweigher/views.py",
+			"settings":
+			{
+				"buffer_size": 582,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAADxDQAAZnJvbSBkamFuZ28uc2hvcnRjdXRzIGltcG9ydCByZW5kZXIsIGdldF9vYmplY3Rfb3JfNDA0LCByZWRpcmVjdApmcm9tIGRqYW5nby52aWV3cyBpbXBvcnQgVmlldwoKZnJvbSAuZm9ybXMgaW1wb3J0IENvdXJzZU1vZGVsRm9ybQpmcm9tIC5tb2RlbHMgaW1wb3J0IENvdXJzZSAKIyBCQVNFIFZJRVcgQ0xhc3MgPSBWSUVXCgpjbGFzcyBDb3Vyc2VPYmplY3RNaXhpbihvYmplY3QpOgogICAgbW9kZWwgPSBDb3Vyc2UKICAgIGRlZiBnZXRfb2JqZWN0KHNlbGYpOgogICAgICAgIGlkID0gc2VsZi5rd2FyZ3MuZ2V0KCdpZCcpCiAgICAgICAgb2JqID0gTm9uZQogICAgICAgIGlmIGlkIGlzIG5vdCBOb25lOgogICAgICAgICAgICBvYmogPSBnZXRfb2JqZWN0X29yXzQwNChzZWxmLm1vZGVsLCBpZD1pZCkKICAgICAgICByZXR1cm4gb2JqIAoKY2xhc3MgQ291cnNlRGVsZXRlVmlldyhDb3Vyc2VPYmplY3RNaXhpbiwgVmlldyk6CiAgICB0ZW1wbGF0ZV9uYW1lID0gImNvdXJzZXMvY291cnNlX2RlbGV0ZS5odG1sIiAjIERldGFpbFZpZXcKICAgIGRlZiBnZXQoc2VsZiwgcmVxdWVzdCwgaWQ9Tm9uZSwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICAjIEdFVCBtZXRob2QKICAgICAgICBjb250ZXh0ID0ge30KICAgICAgICBvYmogPSBzZWxmLmdldF9vYmplY3QoKQogICAgICAgIGlmIG9iaiBpcyBub3QgTm9uZToKICAgICAgICAgICAgY29udGV4dFsnb2JqZWN0J10gPSBvYmoKICAgICAgICByZXR1cm4gcmVuZGVyKHJlcXVlc3QsIHNlbGYudGVtcGxhdGVfbmFtZSwgY29udGV4dCkKCiAgICBkZWYgcG9zdChzZWxmLCByZXF1ZXN0LCBpZD1Ob25lLCAgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICAjIFBPU1QgbWV0aG9kCiAgICAgICAgY29udGV4dCA9IHt9CiAgICAgICAgb2JqID0gc2VsZi5nZXRfb2JqZWN0KCkKICAgICAgICBpZiBvYmogaXMgbm90IE5vbmU6CiAgICAgICAgICAgIG9iai5kZWxldGUoKQogICAgICAgICAgICBjb250ZXh0WydvYmplY3QnXSA9IE5vbmUKICAgICAgICAgICAgcmV0dXJuIHJlZGlyZWN0KCcvY291cnNlcy8nKQogICAgICAgIHJldHVybiByZW5kZXIocmVxdWVzdCwgc2VsZi50ZW1wbGF0ZV9uYW1lLCBjb250ZXh0KQoKCmNsYXNzIENvdXJzZVVwZGF0ZVZpZXcoQ291cnNlT2JqZWN0TWl4aW4sIFZpZXcpOgogICAgdGVtcGxhdGVfbmFtZSA9ICJjb3Vyc2VzL2NvdXJzZV91cGRhdGUuaHRtbCIgIyBEZXRhaWxWaWV3CiAgICBkZWYgZ2V0X29iamVjdChzZWxmKToKICAgICAgICBpZCA9IHNlbGYua3dhcmdzLmdldCgnaWQnKQogICAgICAgIG9iaiA9IE5vbmUKICAgICAgICBpZiBpZCBpcyBub3QgTm9uZToKICAgICAgICAgICAgb2JqID0gZ2V0X29iamVjdF9vcl80MDQoQ291cnNlLCBpZD1pZCkKICAgICAgICByZXR1cm4gb2JqCgogICAgZGVmIGdldChzZWxmLCByZXF1ZXN0LCBpZD1Ob25lLCAqYXJncywgKiprd2FyZ3MpOgogICAgICAgICMgR0VUIG1ldGhvZAogICAgICAgIGNvbnRleHQgPSB7fQogICAgICAgIG9iaiA9IHNlbGYuZ2V0X29iamVjdCgpCiAgICAgICAgaWYgb2JqIGlzIG5vdCBOb25lOgogICAgICAgICAgICBmb3JtID0gQ291cnNlTW9kZWxGb3JtKGluc3RhbmNlPW9iaikKICAgICAgICAgICAgY29udGV4dFsnb2JqZWN0J10gPSBvYmoKICAgICAgICAgICAgY29udGV4dFsnZm9ybSddID0gZm9ybQogICAgICAgIHJldHVybiByZW5kZXIocmVxdWVzdCwgc2VsZi50ZW1wbGF0ZV9uYW1lLCBjb250ZXh0KQoKICAgIGRlZiBwb3N0KHNlbGYsIHJlcXVlc3QsIGlkPU5vbmUsICAqYXJncywgKiprd2FyZ3MpOgogICAgICAgICMgUE9TVCBtZXRob2QKICAgICAgICBjb250ZXh0ID0ge30KICAgICAgICBvYmogPSBzZWxmLmdldF9vYmplY3QoKQogICAgICAgIGlmIG9iaiBpcyBub3QgTm9uZToKICAgICAgICAgICAgZm9ybSA9IENvdXJzZU1vZGVsRm9ybShyZXF1ZXN0LlBPU1QsIGluc3RhbmNlPW9iaikKICAgICAgICAgICAgaWYgZm9ybS5pc192YWxpZCgpOgogICAgICAgICAgICAgICAgZm9ybS5zYXZlKCkKICAgICAgICAgICAgY29udGV4dFsnb2JqZWN0J10gPSBvYmoKICAgICAgICAgICAgY29udGV4dFsnZm9ybSddID0gZm9ybQogICAgICAgIHJldHVybiByZW5kZXIocmVxdWVzdCwgc2VsZi50ZW1wbGF0ZV9uYW1lLCBjb250ZXh0KQoKCmNsYXNzIENvdXJzZUNyZWF0ZVZpZXcoVmlldyk6CiAgICB0ZW1wbGF0ZV9uYW1lID0gImNvdXJzZXMvY291cnNlX2NyZWF0ZS5odG1sIiAjIERldGFpbFZpZXcKICAgIGRlZiBnZXQoc2VsZiwgcmVxdWVzdCwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICAjIEdFVCBtZXRob2QKICAgICAgICBmb3JtID0gQ291cnNlTW9kZWxGb3JtKCkKICAgICAgICBjb250ZXh0ID0geyJmb3JtIjogZm9ybX0KICAgICAgICByZXR1cm4gcmVuZGVyKHJlcXVlc3QsIHNlbGYudGVtcGxhdGVfbmFtZSwgY29udGV4dCkKCiAgICBkZWYgcG9zdChzZWxmLCByZXF1ZXN0LCAqYXJncywgKiprd2FyZ3MpOgogICAgICAgICMgUE9TVCBtZXRob2QKICAgICAgICBmb3JtID0gQ291cnNlTW9kZWxGb3JtKHJlcXVlc3QuUE9TVCkKICAgICAgICBpZiBmb3JtLmlzX3ZhbGlkKCk6CiAgICAgICAgICAgIGZvcm0uc2F2ZSgpCiAgICAgICAgICAgIGZvcm0gPSBDb3Vyc2VNb2RlbEZvcm0oKQogICAgICAgIGNvbnRleHQgPSB7ImZvcm0iOiBmb3JtfQogICAgICAgIHJldHVybiByZW5kZXIocmVxdWVzdCwgc2VsZi50ZW1wbGF0ZV9uYW1lLCBjb250ZXh0KQoKCmNsYXNzIENvdXJzZUxpc3RWaWV3KFZpZXcpOgogICAgdGVtcGxhdGVfbmFtZSA9ICJjb3Vyc2VzL2NvdXJzZV9saXN0Lmh0bWwiCiAgICBxdWVyeXNldCA9IENvdXJzZS5vYmplY3RzLmFsbCgpCgogICAgZGVmIGdldF9xdWVyeXNldChzZWxmKToKICAgICAgICByZXR1cm4gc2VsZi5xdWVyeXNldAoKICAgIGRlZiBnZXQoc2VsZiwgcmVxdWVzdCwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICBjb250ZXh0ID0geydvYmplY3RfbGlzdCc6IHNlbGYuZ2V0X3F1ZXJ5c2V0KCl9CiAgICAgICAgcmV0dXJuIHJlbmRlcihyZXF1ZXN0LCBzZWxmLnRlbXBsYXRlX25hbWUsIGNvbnRleHQpCgoKY2xhc3MgQ291cnNlVmlldyhDb3Vyc2VPYmplY3RNaXhpbiwgVmlldyk6CiAgICB0ZW1wbGF0ZV9uYW1lID0gImNvdXJzZXMvY291cnNlX2RldGFpbC5odG1sIiAjIERldGFpbFZpZXcKICAgIGRlZiBnZXQoc2VsZiwgcmVxdWVzdCwgaWQ9Tm9uZSwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICAjIEdFVCBtZXRob2QKICAgICAgICBjb250ZXh0ID0geydvYmplY3QnOiBzZWxmLmdldF9vYmplY3QoKX0KICAgICAgICByZXR1cm4gcmVuZGVyKHJlcXVlc3QsIHNlbGYudGVtcGxhdGVfbmFtZSwgY29udGV4dCkKCiAgICAjIGRlZiBwb3N0KHJlcXVlc3QsICphcmdzLCAqKmt3YXJncyk6CiAgICAjICAgICByZXR1cm4gcmVuZGVyKHJlcXVlc3QsICdhYm91dC5odG1sJywge30pCgojIEhUVFAgTUVUSE9EUwpkZWYgbXlfZmJ2KHJlcXVlc3QsICphcmdzLCAqKmt3YXJncyk6CiAgICBwcmludChyZXF1ZXN0Lm1ldGhvZCkKICAgIHJldHVybiByZW5kZXIocmVxdWVzdCwgJ2Fib3V0Lmh0bWwnLCB7fSk",
+					"AQAAAAAAAAABAAAAAAAAAAAAAADxDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAARgIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/useraccounts/templates/account/login.html",
+			"settings":
+			{
+				"buffer_size": 995,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAA5AMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOMDAAAAAAAA4wMAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAA5AMAAAAAAADkAwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/useraccounts/templates/account/signup.html",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAmwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/useraccounts/views.py",
+			"settings":
+			{
+				"buffer_size": 3775,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AgAAAFcDAAAAAAAAeQQAAAAAAAAAAAAAeQQAAAAAAAB5BAAAAAAAAL4AAABjbGFzcyBTaWdudXBWaWV3KENyZWF0ZVZpZXcpOgogICAgZm9ybV9jbGFzcyA9IEFsbEF1dGhTaWdudXBGb3JtCiAgICB0ZW1wbGF0ZV9uYW1lID0gJ3VzZXJhY2NvdW50cy9zaWdudXAuaHRtbCcKICAgIHN1Y2Nlc3NfdXJsID0gcmV2ZXJzZV9sYXp5KCd1c2VyYWNjb3VudHM6bG9naW4nKSAgIyBSZWRpcmVjdCBhZnRlciBzaWdudXAK",
+					"AQAAAAAAAAABAAAAFQQAAAAAAABXAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFcDAAAAAAAAVwMAAAAAAACDAAAAZnJvbSBkamFuZ28udXJscyBpbXBvcnQgcmV2ZXJzZV9sYXp5CmZyb20gYWxsYXV0aC5hY2NvdW50LmZvcm1zIGltcG9ydCBTaWdudXBGb3JtCmZyb20gZGphbmdvLnZpZXdzLmdlbmVyaWMuZWRpdCBpbXBvcnQgQ3JlYXRlVmlldwo",
+					"AQAAAAAAAAABAAAA2gMAAAAAAABXAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"paste",
+					null,
+					"AgAAANQBAAAAAAAAkgIAAAAAAAAAAAAAkgIAAAAAAACSAgAAAAAAAN8AAABAbG9naW5fcmVxdWlyZWQKZGVmIGhvbWVfdmlldyhyZXF1ZXN0KToKICAgIGlmIHJlcXVlc3QudXNlci5pc19hdXRoZW50aWNhdGVkOgogICAgICAgIHVzZXJuYW1lID0gcmVxdWVzdC51c2VyLmVtYWlsCiAgICBlbHNlOgogICAgICAgIHVzZXJuYW1lID0gIkd1ZXN0IgogICAgcmV0dXJuIHJlbmRlcihyZXF1ZXN0LCAncGFnZXMvaG9tZS5odG1sJywgeyd1c2VybmFtZSc6IHVzZXJuYW1lfSkK",
+					"AQAAAAAAAAABAAAAswIAAAAAAADUAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"paste",
+					null,
+					"AgAAADcDAAAAAAAAUAQAAAAAAAAAAAAAUAQAAAAAAABQBAAAAAAAAJ4AAABjbGFzcyBTaWdudXBWaWV3KENyZWF0ZVZpZXcpOgogICAgZm9ybV9jbGFzcyA9IFNpZ251cEZvcm0KICAgIHRlbXBsYXRlX25hbWUgPSAndXNlcmFjY291bnRzL3NpZ251cC5odG1sJwogICAgc3VjY2Vzc191cmwgPSByZXZlcnNlX2xhenkoJ3VzZXJhY2NvdW50czpsb2dpbicpCg",
+					"AQAAAAAAAAABAAAA1QMAAAAAAAA3AwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"paste",
+					null,
+					"AQAAAAgJAAAAAAAAvw0AAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAkAAAAAAAAICQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/products/templates/product/logout.html",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/useraccounts/forms.py",
+			"settings":
+			{
+				"buffer_size": 707,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAARwEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAApAEAAAAAAAAAAAAApAEAAAAAAACkAQAAAAAAAEcBAABjbGFzcyBDdXN0b21TaWdudXBGb3JtKEFsbGF1dGhTaWdudXBGb3JtKToKICAgICMgQWRkIGFueSBhZGRpdGlvbmFsIGZpZWxkcyBvciBtZXRob2RzIGhlcmUKICAgIGZpcnN0X25hbWUgPSBmb3Jtcy5DaGFyRmllbGQobWF4X2xlbmd0aD0zMCwgcmVxdWlyZWQ9VHJ1ZSkKICAgIAogICAgZGVmIHNhdmUoc2VsZiwgKmFyZ3MsICoqa3dhcmdzKToKICAgICAgICB1c2VyID0gc3VwZXIoQ3VzdG9tU2lnbnVwRm9ybSwgc2VsZikuc2F2ZSgqYXJncywgKiprd2FyZ3MpCiAgICAgICAgIyBQZXJmb3JtIGFueSBjdXN0b20gb3BlcmF0aW9ucyBoZXJlCiAgICAgICAgcmV0dXJuIHVzZXI",
+					"AQAAAAAAAAABAAAAAAAAAAAAAABHAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"paste",
+					null,
+					"AQAAAKQBAAAAAAAAwwIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAApAEAAAAAAACkAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/fruitweigher/urls.py",
+			"settings":
+			{
+				"buffer_size": 382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AgAAAEEBAAAAAAAAfAEAAAAAAAAAAAAAfAEAAAAAAAB8AQAAAAAAAEMAAAAgICAgcGF0aCgnJywgaG9tZV92aWV3LCBuYW1lPSdob21lJyksICAjIE1hcCByb290IFVSTCB0byBob21lX3ZpZXcK",
+					"AQAAAAAAAAABAAAAQQEAAAAAAACEAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "src/useraccounts/apps.py",
+			"settings":
+			{
+				"buffer_size": 229,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAA5QAAAAAAAAAAAAAA5QAAAAAAAADlAAAAAAAAAJsAAABmcm9tIGRqYW5nby5hcHBzIGltcG9ydCBBcHBDb25maWcKCmNsYXNzIFVzZXJBY2NvdW50c0NvbmZpZyhBcHBDb25maWcpOgogICAgZGVmYXVsdF9hdXRvX2ZpZWxkID0gJ2RqYW5nby5kYi5tb2RlbHMuQmlnQXV0b0ZpZWxkJwogICAgbmFtZSA9ICd1c2VyYWNjb3VudHMnCg",
+					"AQAAAAAAAAABAAAAAAAAAAAAAACbAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/allpeep/dev/fruit-weigher",
+		"/Users/allpeep/dev/fruit-weigher/src",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher",
+		"/Users/allpeep/dev/fruit-weigher/src/pages",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/migrations",
+		"/Users/allpeep/dev/fruit-weigher/src/products",
+		"/Users/allpeep/dev/fruit-weigher/src/products/__pycache__",
+		"/Users/allpeep/dev/fruit-weigher/src/products/migrations",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts/templates",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts/templates/account"
+	],
+	"file_history":
+	[
+		"/Users/allpeep/dev/fruit-weigher/src/accounts/apps.py",
+		"/Users/allpeep/dev/fruit-weigher/src/user/templates/account/login_signup.html",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/tests.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/models.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/forms.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/apps.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/admin.py",
+		"/Users/allpeep/dev/fruit-weigher/src/templates/home.html",
+		"/Users/allpeep/dev/fruit-weigher/src/templates/product/detail.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/tests.py",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/admin.py",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/apps.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/home.html",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/__init__.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/__init__.py",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts/apps.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/settings.py",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/useraccounts/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/home.html",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/wsgi.py",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/forms.py",
+		"/Users/allpeep/dev/fruit-weigher/product_create.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/product_detail.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/product_form.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/product_confirm_delete.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/base.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/item_form.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/weight_list.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/weighing_form.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/weighing_confirm_delete.html",
+		"/Users/allpeep/dev/fruit-weigher/src/accounts/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/accounts/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/login_signup.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/views.py",
+		"/Users/allpeep/dev/fruit-weigher/src/user/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/logout.html",
+		"/Users/allpeep/dev/fruit-weigher/manage.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/admin.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/apps.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/models.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/migrations/0003_remove_product_weigh_product_weight.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/migrations/0005_add_description_field.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/migrations/0004_auto_20240725_1511.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/tests.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/urls.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/item_list.html",
+		"/Users/allpeep/dev/fruit-weigher/src/pages/models.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/product_list.html",
+		"/Users/allpeep/dev/fruit-weigher/src/.python-version",
+		"/Users/allpeep/dev/fruit-weigher/src/db.sqlite3",
+		"/Users/allpeep/dev/fruit-weigher/src/manage.py",
+		"/Users/allpeep/dev/fruit-weigher/src/user/templates/account/account",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/account/signup.html",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product/product_create.html",
+		"/Users/allpeep/dev/fruit-weigher/src/fruitweigher/asgi.py",
+		"/Users/allpeep/dev/fruit-weigher/src/products/templates/product_create.html",
+		"/Users/allpeep/dev/fruit-weigher/models.py",
+		"/Users/allpeep/dev/trydjango/trydjango/manage.py",
+		"/Users/allpeep/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/0498E6D8-F010-4A53-9E72-45737C315946/manage.py",
+		"/Users/allpeep/dev/trydjango/pyvenv.cfg"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"login",
+			"log",
+			"static",
+			" .",
+			"    path('admin/', admin.site.urls),\n",
+			"import "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/fruitweigher/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/useraccounts/templates/account/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 70.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/useraccounts/templates/account/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2203,
+								2203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 804.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/useraccounts/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3519,
+								3519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/products/templates/product/logout.html",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/useraccounts/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/fruitweigher/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/useraccounts/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 229,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fruit-weigher.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Database</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mona:wght@400;700&display=swap');
+        body {
+            font-family: 'Mona', serif;
+            background: linear-gradient(to right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        a {
+            color: #FFDC80;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #FCAF45;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Product Entries by Users</h2>
+        <ul>
+            {% for entry in product_entries %}
+                <li>{{ entry.user.username }} added {{ entry.weight }} to {{ entry.product.name }} on {{ entry.timestamp }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'useraccounts:admin-page' %}">Back to Admin Page</a>
+    </div>
+</body>
+</html>
