@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Database</title>
+</head>
+<body>
+    <h2>Product Entries by Users</h2>
+    <ul>
+        {% for entry in product_entries %}
+            <li>{{ entry.user.username }} added {{ entry.weight }} to {{ entry.product.name }} on {{ entry.timestamp }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'useraccounts:admin-page' %}">Back to Admin Page</a>
+</body>
+</html>
