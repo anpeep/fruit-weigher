@@ -19,6 +19,15 @@ Clone this repository to your local machine:
 git clone https://github.com/anpeep/fruit-weigher.git
 cd fruit-weigher/src
 ```
+# Using Docker
+
+To simplify the setup and ensure consistent environments, you can use Docker. The composer.yml file is provided for this purpose.
+- **Install Docker: Follow the instructions for your operating system on the Docker website.**
+- **Run the Project with Docker**
+```bash
+docker-compose up --build
+```
+# Without Docker
 ## Install Python (on Linux)
 Install the necessary Python packages:
 ```bash
